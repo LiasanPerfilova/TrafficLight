@@ -59,9 +59,9 @@
 				6CA4482529F6EB7C00C90801 /* AppDelegate.swift */,
 				6CA4482729F6EB7C00C90801 /* SceneDelegate.swift */,
 				6CA4482929F6EB7C00C90801 /* ViewController.swift */,
+				6CA4483029F6EB7D00C90801 /* LaunchScreen.storyboard */,
 				6CA4482B29F6EB7C00C90801 /* Main.storyboard */,
 				6CA4482E29F6EB7D00C90801 /* Assets.xcassets */,
-				6CA4483029F6EB7D00C90801 /* LaunchScreen.storyboard */,
 				6CA4483329F6EB7D00C90801 /* Info.plist */,
 			);
 			path = TrafficLight;
@@ -301,9 +301,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LiaisanPerfilova.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +331,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LiaisanPerfilova.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
